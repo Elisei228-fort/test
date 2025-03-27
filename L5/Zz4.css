@@ -1,0 +1,27 @@
+#input1 {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; 
+}
+
+#input1::placeholder {
+    color: green; 
+}
+
+#input2 {
+    background-color: green; 
+    color: white; 
+    border: 1px solid darkgreen;
+}
+
+#input2::placeholder {
+    color: white; 
+}
+
+
+#input2:not(:placeholder-shown) {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; 
+}
+

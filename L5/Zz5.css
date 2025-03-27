@@ -1,0 +1,18 @@
+#input1:focus {
+color: green; 
+}
+
+
+#input2:focus {
+color: orange; 
+border: 2px solid orange;
+outline: none; 
+box-shadow: 0 0 5px orange; 
+}
+
+
+
+#input3:focus {
+width: 300px; 
+transition: width 0.3s ease;
+}

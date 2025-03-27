@@ -1,0 +1,19 @@
+.container {
+    counter-reset: coun;
+}
+
+p {
+    counter-increment: coun;
+}
+
+p::before {
+    content: "Абзац № " counter(coun) ". ";
+}
+
+p.reset::before {
+    content: "Абзац № 1. ";
+}
+
+p.reset {
+    counter-reset: coun;
+}
